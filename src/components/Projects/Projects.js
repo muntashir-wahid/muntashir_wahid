@@ -23,24 +23,20 @@ const Projects = () => {
               <h2 className="card-title">{project.name}</h2>
               <p>{project.about}</p>
               <div className="card-actions justify-end flex-nowrap">
-                <button className="btn btn-primary">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.links.liveSite}
-                  >
-                    Live site
-                  </a>
-                </button>
-                <button className="btn btn-primary">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={project.links.codeLink}
-                  >
-                    Source code
-                  </a>
-                </button>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.links.liveSite}
+                >
+                  <button className="btn btn-primary">Live site</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.links.codeLink}
+                >
+                  <button className="btn btn-primary">Source code</button>
+                </a>
               </div>
             </div>
           </div>
