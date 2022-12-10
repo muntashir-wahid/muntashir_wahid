@@ -1,12 +1,13 @@
 import React from "react";
 import banner from "./../../asstes/images/banner.jpg";
 
+const background = {
+  backgroundImage: `url(${banner})`,
+};
+
 const Banner = () => {
   return (
-    <section
-      className="hero min-h-screen"
-      style={{ backgroundImage: `url(${banner})` }}
-    >
+    <section className="hero min-h-screen" style={background}>
       <div className="hero-overlay bg-opacity-80"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">

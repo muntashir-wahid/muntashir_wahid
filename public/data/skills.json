@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "63944d0325158388c3d5e1e9",
+    "value": 70,
+    "name": "HTML 5"
+  },
+  {
+    "_id": "63944d039a538325ecb3d23d",
+    "value": 70,
+    "name": "CSS 3"
+  },
+  {
+    "_id": "63944d03e6a1d3f09765d83d",
+    "value": 60,
+    "name": "JavaScript"
+  },
+  {
+    "_id": "63944d03d2c0eb36936f99b3",
+    "value": 60,
+    "name": "React.js"
+  },
+  {
+    "_id": "63944d0389ca548804bdfe2f",
+    "value": 50,
+    "name": "Node.js"
+  },
+  {
+    "_id": "63944d0389ca548804bdfe3f",
+    "value": 70,
+    "name": "Express.js"
+  },
+  {
+    "_id": "63944d0389ca548804bdfe5f",
+    "value": 50,
+    "name": "MongoDB"
+  }
+]
