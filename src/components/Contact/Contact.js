@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <SectionWrapper className="px-2 md:px-12">
       <h2 className="text-center font-bold text-4xl mb-12">Contact Me</h2>
-      <div className="bg-base-200 p-6 w-full lg:w-3/5 mx-auto">
+      <div id="contact" className="bg-base-200 p-6 w-full lg:w-3/5 mx-auto">
         <form ref={contactFormRef} onSubmit={handleSubmit}>
           <div className="form-control w-full">
             <label className="label">

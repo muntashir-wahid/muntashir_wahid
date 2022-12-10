@@ -22,7 +22,9 @@ const Banner = () => {
               See resume
             </a>
           </button>
-          <button className="btn btn-primary">Cotact me</button>
+          <button className="btn btn-primary">
+            <a href="#contact">Contact me</a>
+          </button>
         </div>
       </div>
     </section>

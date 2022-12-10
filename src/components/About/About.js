@@ -25,7 +25,9 @@ const About = () => {
               and a half year. I've got a good foundation in JavaScript. I'm so
               much passionate about programming and web development.
             </p>
-            <button className="btn btn-primary">Contact me</button>
+            <button className="btn btn-primary">
+              <a href="#contact">Contact me</a>
+            </button>
           </div>
         </div>
       </article>
