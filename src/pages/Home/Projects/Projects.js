@@ -6,9 +6,13 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("https://muntashir-wahid-server.vercel.app/api/v1/projects")
       .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        if (data.success) {
+          setProjects(data?.data?.projects);
+        }
+      });
   }, []);
 
   return (

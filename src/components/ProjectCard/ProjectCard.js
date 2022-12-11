@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -13,9 +14,9 @@ const ProjectCard = ({ project }) => {
           <a target="_blank" rel="noreferrer" href={project.links.liveSite}>
             <button className="btn btn-primary">Live site</button>
           </a>
-          <a target="_blank" rel="noreferrer" href={project.links.client}>
-            <button className="btn btn-primary">Source code</button>
-          </a>
+          <Link to={`/projects/${project._id}`}>
+            <button className="btn btn-primary">View details</button>
+          </Link>
         </div>
       </div>
     </article>

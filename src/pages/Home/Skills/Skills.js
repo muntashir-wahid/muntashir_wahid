@@ -5,7 +5,7 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/v1/skills")
+    fetch("https://muntashir-wahid-server.vercel.app/api/v1/skills")
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {
@@ -13,8 +13,6 @@ const Skills = () => {
         }
       });
   }, []);
-
-  console.log(skills);
 
   return (
     <SectionWrapper className="px-2 md:px-6">
