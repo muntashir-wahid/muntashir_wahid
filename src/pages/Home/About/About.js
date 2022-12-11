@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 import SectionWrapper from "../../../components/UI/SectionWrapper/SectionWrapper";
 import displayImg from "./../../../asstes/images/display_img.png";
 
@@ -30,7 +31,9 @@ const About = () => {
               rel="noreferrer"
               href="https://github.com/muntashir-wahid"
             >
-              <button className="btn btn-primary">Visit GitHub</button>
+              <button className="btn btn-primary">
+                <FaGithub className="text-lg mr-1" /> Visit GitHub
+              </button>
             </a>
           </div>
         </div>

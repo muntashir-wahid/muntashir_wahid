@@ -1,4 +1,6 @@
 import React from "react";
+import { GrDocumentPdf } from "react-icons/gr";
+import { MdWavingHand } from "react-icons/md";
 import banner from "./../../../asstes/images/banner.jpg";
 
 const background = {
@@ -18,10 +20,16 @@ const Banner = () => {
             rel="noreferrer"
             href="https://drive.google.com/file/d/1M1Af7pafqHoJ_4PuypgzU-sYy6xdAnHT/view?usp=share_link"
           >
-            <button className="btn btn-primary mr-2">See resume</button>
+            <button className="btn btn-primary mr-2">
+              <GrDocumentPdf className="text-lg mr-1" />
+              See resume
+            </button>
           </a>
           <a href="#contact">
-            <button className="btn btn-primary">Contact me</button>
+            <button className="btn btn-primary">
+              <MdWavingHand className="text-lg mr-1" />
+              Contact me
+            </button>
           </a>
         </div>
       </div>
