@@ -1,6 +1,5 @@
 [
   {
-    "_id": "639457d4bdc6a336efc3eb5f",
     "name": "MobileYard",
     "usedTools": [
       "React",
@@ -33,7 +32,6 @@
     }
   },
   {
-    "_id": "639457d40caae45adca7f10c",
     "name": "Cook and Taste",
     "usedTools": [
       "create-react-app",
@@ -64,7 +62,6 @@
     }
   },
   {
-    "_id": "639457d4a3276476968a937b",
     "name": "MW Academy",
     "usedTools": [
       "Create React App",
@@ -96,7 +93,6 @@
     }
   },
   {
-    "_id": "639457d41b336fc5c2d74e70",
     "name": "ReactMeals",
     "usedTools": ["create-react-app", "react-dom", "React hooks"],
     "pictures": [
@@ -112,37 +108,33 @@
     }
   },
   {
-    "_id": "639457d4f85247571b31009c",
     "name": "Bankist",
     "usedTools": ["HTML5", "CSS3", "JavaScript"],
+    "pictures": [
+      "https://i.ibb.co/WxWswkK/bankist-home.png",
+      "https://i.ibb.co/pXzrHKt/bankist-testimonial.png",
+      "https://i.ibb.co/zVxKb95/bankist-features.png"
+    ],
+    "desctiption": [],
+    "about": "A fictional bank landing page created by vanilla JS, HTML and CSS.",
+    "links": {
+      "liveSite": "https://muntashir-wahid.github.io/Advance-DOM-Bankist/",
+      "client": "https://github.com/muntashir-wahid/Advance-DOM-Bankist"
+    }
+  },
+  {
+    "name": "E-educare",
+    "usedTools": ["HTML5", "CSS3", "Bootstrap"],
     "pictures": [
       "https://i.ibb.co/8dtf5GL/e-educare-home.png",
       "https://i.ibb.co/n1sz9px/e-educare-faq.png",
       "https://i.ibb.co/jRRDtYt/e-educare-courses.png"
     ],
     "desctiption": [],
-    "about": "A fictional bank landing page created by vanilla JS, HTML and CSS.",
-    "links": {
-      "liveSite": "https://muntashir-wahid.github.io/Advance-DOM-Bankist/",
-      "client": "https://github.com/muntashir-wahid/Advance-DOM-Bankist",
-      "server": ""
-    }
-  },
-  {
-    "_id": "639457d4f85247571b31002c",
-    "name": "E-educare",
-    "usedTools": ["HTML5", "CSS3", "Bootstrap"],
-    "pictures": [
-      "https://i.ibb.co/pXzrHKt/bankist-testimonial.png",
-      "https://i.ibb.co/WxWswkK/bankist-home.png",
-      "https://i.ibb.co/zVxKb95/bankist-features.png"
-    ],
-    "desctiption": [],
     "about": "An online course selling landing page template created by bootstrap.",
     "links": {
       "liveSite": "https://hilarious-babka-aa7c1b.netlify.app/",
-      "client": "https://github.com/muntashir-wahid/e-educare",
-      "server": ""
+      "client": "https://github.com/muntashir-wahid/e-educare"
     }
   }
 ]
