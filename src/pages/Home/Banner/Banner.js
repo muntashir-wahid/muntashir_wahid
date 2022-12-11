@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-2 text-5xl font-bold">Muntashir Wahid</h1>
-          <p className="mb-5 text-3xl font-semibold">MERN-Stack Developer</p>
+          <p className="mb-5 text-3xl font-semibold">MERN Stack Developer</p>
           <a
             target="_blank"
             rel="noreferrer"

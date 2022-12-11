@@ -1,12 +1,13 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { MdWavingHand } from "react-icons/md";
 import SectionWrapper from "../../../components/UI/SectionWrapper/SectionWrapper";
 import displayImg from "./../../../asstes/images/display_img.png";
 
 const About = () => {
   return (
     <SectionWrapper className="px-2 md:px-12">
-      <article className="hero bg-base-200">
+      <article className="hero bg-base-200 rounded-lg">
         <div className="hero-content flex-col md:flex-row">
           <img
             src={displayImg}
@@ -15,7 +16,10 @@ const About = () => {
           />
           <div className=" px-0 md:px-10 text-center md:text-left">
             <h2 className="text-3xl font-bold">
-              Hello there! I'm Muntashir Wahid <br />
+              Hello there
+              <MdWavingHand className="inline-block mx-1" /> <br />
+              <span>I'm Muntashir Wahid</span>
+              <br />
               <span className="text-lg font-semibold">
                 I'm a MERN Stack developer
               </span>
