@@ -5,10 +5,16 @@ const Skills = () => {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("/data/skills.json")
+    fetch("http://localhost:5000/api/v1/skills")
       .then((res) => res.json())
-      .then((data) => setSkills(data));
+      .then((data) => {
+        if (data.success) {
+          setSkills(data?.data?.skills);
+        }
+      });
   }, []);
+
+  console.log(skills);
 
   return (
     <SectionWrapper className="px-2 md:px-6">

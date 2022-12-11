@@ -2,61 +2,147 @@
   {
     "_id": "639457d4bdc6a336efc3eb5f",
     "name": "MobileYard",
-    "picture": "https://i.ibb.co/711Xjwf/mobile-yard.png",
+    "usedTools": [
+      "React",
+      "React router",
+      "Firebase",
+      "Tailwind CSS",
+      "Daisy UI",
+      "Stripe",
+      "Axios",
+      "React query",
+      "React hook from"
+    ],
+    "pictures": [
+      "https://i.ibb.co/qCRcJgZ/mobile-yard-home.png",
+      "https://i.ibb.co/PNHxXpn/mobile-yard-phones.png",
+      "https://i.ibb.co/Cm3vyZ2/mobile-yard-dashboard.png"
+    ],
+    "desctiption": [
+      "MobileYard is a single-page web application built with react. website. Every time you see somethig new on the site you don't need to fetch a whole HTML, CSS and JavaScript file here. It will give you the feeling of useing mobile application on web.",
+      "As it is a single-page web application it doesn't have the limitation of routing. You can visit multiple pages. And the routing happens on the client side.",
+      "MobileYard has an authentication system. So you can create your account here. You can either create an account with your email and password or you can log in with your Google account. Here you can create an account as a seller or as a regular user. If you want to sell your second-hand phone you have to create a seller's account.",
+      "MobileYard is an API-powered dynamic website. All the data are coming from a database via a backend app and all the data are pretty much secure here.",
+      "Here you can pay your booking mobile phone via Stripe."
+    ],
     "about": "A sigle page, API powered, MERN-Stack web app to buy/sell second hand phones.",
     "links": {
       "liveSite": "https://mobileyard-bab0c.web.app/",
-      "codeLink": "https://github.com/muntashir-wahid/mobile-yard-client"
+      "client": "https://github.com/muntashir-wahid/mobile-yard-client",
+      "server": "https://github.com/muntashir-wahid/mobile-yard-server"
     }
   },
   {
     "_id": "639457d40caae45adca7f10c",
     "name": "Cook and Taste",
-    "picture": "https://i.ibb.co/PrZLXKY/cook-and-taste.png",
+    "usedTools": [
+      "create-react-app",
+      "react-router",
+      "Firebase",
+      "Tailwind CSS",
+      "daisyUI",
+      "react-icons",
+      "react-toastify"
+    ],
+    "pictures": [
+      "https://i.ibb.co/Kx6pnng/cook-and-taste-home.png",
+      "https://i.ibb.co/8zy6sGR/cook-and-taste-about.png",
+      "https://i.ibb.co/rHkCdf1/cook-and-taste-recipe-details.png"
+    ],
+    "desctiption": [
+      "Cook and Taste is a single-page web application. So you dont need to fetch a whole html document in order to see someting new or dynamic in this page. It wiil give you the feel of useing moblie application on web.",
+      "In a typical single-page web application you do not have the ability to go to differnet routes. But in this morder web app you have this ability. You can go to different pages as you like.",
+      "On this website, you can create your account either with your email and password or you can use your google account to authenticate yourself.",
+      "Cook and Taste is an API Powered website. All the data of recipes and user reviews are coming dynamically via a backend application from a database.",
+      "Some backend API endpoints need authorization to send data. So APIs are secure here."
+    ],
     "about": "A sigle page, API powered, MERN-Stack web app to share delicious recipes.",
     "links": {
       "liveSite": "https://cook-and-taste-75f3a.web.app/",
-      "codeLink": "https://github.com/muntashir-wahid/cook-and-taste-client"
+      "client": "https://github.com/muntashir-wahid/cook-and-taste-client",
+      "server": "https://github.com/muntashir-wahid/cook-and-taste-server"
     }
   },
   {
     "_id": "639457d4a3276476968a937b",
     "name": "MW Academy",
-    "picture": "https://i.ibb.co/cYsPRCv/mw-academy.png",
+    "usedTools": [
+      "Create React App",
+      "React Router",
+      "Tailwind CSS",
+      "daisyUI",
+      "Firebase SDK",
+      "React Icons",
+      "React-to-pdf",
+      "React toastify"
+    ],
+    "pictures": [
+      "https://i.ibb.co/MR0mCHw/mw-academy-home.png",
+      "https://i.ibb.co/vsNSbsX/mw-academy-courses.png",
+      "https://i.ibb.co/ZBmHmw2/mw-academy-course-details.png"
+    ],
+    "desctiption": [
+      "You can create an account on this site with three different authentication methods (email and password, google login, and GitHub login).",
+      "You can toggle the theme from light mode to dark mode.",
+      "The site is fully responsive. You can use this site on any device.",
+      "It is a single-page web application. So it will give a feel of using some mobile application on the web. All pages will load instantly.",
+      "On the Courses page, you can filter courses with category names."
+    ],
     "about": "A sigle page web app where you can find some skill development courses.",
     "links": {
       "liveSite": "https://mw-academy.web.app/",
-      "codeLink": "https://github.com/muntashir-wahid/mw-academy-client"
+      "client": "https://github.com/muntashir-wahid/mw-academy-client",
+      "server": "https://github.com/muntashir-wahid/mw-academy-server"
     }
   },
   {
     "_id": "639457d41b336fc5c2d74e70",
     "name": "ReactMeals",
-    "picture": "https://i.ibb.co/q75WJbQ/react-meal.png",
+    "usedTools": ["create-react-app", "react-dom", "React hooks"],
+    "pictures": [
+      "https://i.ibb.co/sCLDK8g/react-meals-home.png",
+      "https://i.ibb.co/0s16xZP/react-meals-foods.png",
+      "https://i.ibb.co/LPTXk27/react-meals-cart.png"
+    ],
+    "desctiption": [],
     "about": "A single page react.js webpage where cart functionality is implemented.",
     "links": {
       "liveSite": "https://muntashir-wahid.github.io/react-meals/",
-      "codeLink": "https://github.com/muntashir-wahid/react-meals"
+      "client": "https://github.com/muntashir-wahid/react-meals"
     }
   },
   {
     "_id": "639457d4f85247571b31009c",
     "name": "Bankist",
-    "picture": "https://i.ibb.co/8P7jJD3/bankist.png",
+    "usedTools": ["HTML5", "CSS3", "JavaScript"],
+    "pictures": [
+      "https://i.ibb.co/8dtf5GL/e-educare-home.png",
+      "https://i.ibb.co/n1sz9px/e-educare-faq.png",
+      "https://i.ibb.co/jRRDtYt/e-educare-courses.png"
+    ],
+    "desctiption": [],
     "about": "A fictional bank landing page created by vanilla JS, HTML and CSS.",
     "links": {
       "liveSite": "https://muntashir-wahid.github.io/Advance-DOM-Bankist/",
-      "codeLink": "https://github.com/muntashir-wahid/Advance-DOM-Bankist"
+      "client": "https://github.com/muntashir-wahid/Advance-DOM-Bankist",
+      "server": ""
     }
   },
   {
     "_id": "639457d4f85247571b31002c",
-    "name": "Bankist",
-    "picture": "https://i.ibb.co/1YNJBbz/e-educare.png",
+    "name": "E-educare",
+    "usedTools": ["HTML5", "CSS3", "Bootstrap"],
+    "pictures": [
+      "https://i.ibb.co/pXzrHKt/bankist-testimonial.png",
+      "https://i.ibb.co/WxWswkK/bankist-home.png",
+      "https://i.ibb.co/zVxKb95/bankist-features.png"
+    ],
+    "desctiption": [],
     "about": "An online course selling landing page template created by bootstrap.",
     "links": {
       "liveSite": "https://hilarious-babka-aa7c1b.netlify.app/",
-      "codeLink": "https://github.com/muntashir-wahid/e-educare"
+      "client": "https://github.com/muntashir-wahid/e-educare",
+      "server": ""
     }
   }
 ]
