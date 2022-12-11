@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SectionWrapper from "../UI/SectionWrapper/SectionWrapper";
+import SectionWrapper from "../../../components/UI/SectionWrapper/SectionWrapper";
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);

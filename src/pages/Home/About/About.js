@@ -1,6 +1,6 @@
 import React from "react";
-import SectionWrapper from "../UI/SectionWrapper/SectionWrapper";
-import displayImg from "../../asstes/images/display_img.png";
+import SectionWrapper from "../../../components/UI/SectionWrapper/SectionWrapper";
+import displayImg from "./../../../asstes/images/display_img.png";
 
 const About = () => {
   return (
@@ -25,8 +25,12 @@ const About = () => {
               and a half year. I've got a good foundation in JavaScript. I'm so
               much passionate about programming and web development.
             </p>
-            <a href="#contact">
-              <button className="btn btn-primary">Contact me</button>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/muntashir-wahid"
+            >
+              <button className="btn btn-primary">Visit GitHub</button>
             </a>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import SectionWrapper from "../UI/SectionWrapper/SectionWrapper";
+import SectionWrapper from "../../../components/UI/SectionWrapper/SectionWrapper";
 import { toast, Toaster } from "react-hot-toast";
 
 const Contact = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "./../../asstes/images/banner.jpg";
+import banner from "./../../../asstes/images/banner.jpg";
 
 const background = {
   backgroundImage: `url(${banner})`,
@@ -7,7 +7,7 @@ const background = {
 
 const Banner = () => {
   return (
-    <section className="hero min-h-screen" style={background}>
+    <header className="hero min-h-screen" style={background}>
       <div className="hero-overlay bg-opacity-80"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
@@ -25,7 +25,7 @@ const Banner = () => {
           </a>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 
