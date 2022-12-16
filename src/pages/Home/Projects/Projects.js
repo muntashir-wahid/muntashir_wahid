@@ -18,7 +18,7 @@ const Projects = () => {
   return (
     <SectionWrapper className="px-2 md:px-12">
       <h2 className="text-center font-bold text-4xl mb-12">My Projects</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <ProjectCard key={project._id} project={project} />
         ))}

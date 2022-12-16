@@ -1,5 +1,5 @@
 import React from "react";
-import { MdWavingHand } from "react-icons/md";
+// import { MdWavingHand } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -51,12 +51,12 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      {/* <div className="navbar-end">
         <a href="#contact" className="btn btn-primary btn-outline">
           <MdWavingHand className="text-lg mr-1" />
           Say Hello
         </a>
-      </div>
+      </div> */}
     </nav>
   );
 };
