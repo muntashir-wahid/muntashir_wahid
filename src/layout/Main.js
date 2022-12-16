@@ -6,7 +6,6 @@ import LoadingSpinner from "../components/UI/LoadingSpinner/LoadingSpinner";
 
 const Main = () => {
   const { state } = useNavigation();
-  console.log(state);
 
   return (
     <main>
