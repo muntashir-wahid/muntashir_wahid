@@ -18,14 +18,14 @@ const Skills = () => {
   return (
     <SectionWrapper className="px-2 md:px-6">
       <h2 className="text-center font-bold text-4xl mb-12">My Skills</h2>
-      {!skills.length && (
+      {skills.length === 0 && (
         <LoadingSpinner
           className="w-full h-96"
           message="Please wait!Skills is loading..."
         />
       )}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {skills.length &&
+        {skills.length > 0 &&
           skills.map((skill) => (
             <div
               key={skill._id}
